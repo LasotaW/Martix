@@ -1,0 +1,280 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+    background-color: #111;
+    color: #f1f1f1;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #b70018;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span{
+    cursor:pointer;
+    font-size:35px;
+    float:left;
+    padding: 20px;
+}
+
+span:hover{
+    color: #b70018;
+    transition: 0.3s;
+}
+
+#header{
+    margin-top: -30px;
+    box-shadow: 0px 8px 20px black;
+    position: relative;
+}
+
+#title{
+    font-size: 50px;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+#start{
+    background-color: #b70018;
+    margin-top: -40px;
+    box-shadow: inset  0px -8px 20px black;
+}
+#personal{
+    float:left;
+    margin-right: 20px;
+    height: 400px;
+    padding: 10px;
+}
+#content{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+#colTitle{
+    text-align: center;
+    font-size: 50px;
+}
+
+#pictures{
+    margin-left: 30px;
+}
+
+.project{
+    float:left;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.projTitle{
+    text-align: center;
+    background-color: #b70018;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+.pic{
+    height: 600px;
+    width: 400px;
+}
+
+.desc{
+    background-color: #b70018;
+    padding: 10px;
+    border-radius: 15px; 
+    text-align: justify;
+    max-width: 400px;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #b70018;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.sticky{
+     position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+#collection{
+    box-shadow: 0px 8px 20px black;
+}
+
+#contact{
+    background-color: #b70018; 
+    margin-top: -30px;
+    padding-bottom: 20px;
+    box-shadow: inset 0 8px 20px black;
+    background-image: url(bg3.png);
+    background-repeat: no-repeat;
+}
+
+#contactTitle{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+#map{
+    width:1200px;
+    height: 500px;
+    background-color: aliceblue;
+    float: left;
+    margin-left: 20px;
+    border: 10px solid #111;
+    border-radius: 10px;
+}
+
+#footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+li{
+    font-size: 30px;
+    list-style: none;
+    padding: 5px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#message{
+    text-align: center;
+}
+
+input{
+    border-color: #111;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+    margin: 2px;
+    color: #f1f1f1;
+    font-size: 15px;
+    outline: none;
+    background: transparent;
+}
+
+input:hover{
+    border-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+::placeholder{
+    color: #f1f1f1;
+    font-size: 17px;
+}
+
+#send{
+    margin-left: 380px;
+    padding:15px;
+    font-size: 17px;
+    background-color: #111;
+    color: #b70018;
+}
+
+#send:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: #f1f1f1;
+    background: linear-gradient(300deg, #b70018 0%, #111 100%);
+}
+
+#bgPng {
+    background-image: url(bg.png);
+}

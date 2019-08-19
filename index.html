@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="navigation.js"></script>
+        <script src="slides.js"></script>
+        <script src="map.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
+        <link rel="icon" href="scissors.ico"/>
+        <title>Martix-Usługi krawieckie</title>
+    </head>
+    <body>
+        <div id="header" class="header">
+             <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#title">Działalność</a>
+              <a href="#collection">Oferta</a>
+              <a href="#contact">Gdzie nas szukać?</a>
+            </div>
+            <span onclick="openNav()" id="menu">&#9776;</span> 
+            <h2 id="title">Martix-Usługi krawieckie</h2>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="bgPng">
+            <div id="start">
+                <img id="personal" src="ladies-tailoring-clipart-6.jpg"/>
+                <div id="content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit augue, a ullamcorper nibh. Integer facilisis lorem nec lacus aliquet gravida. Proin eget euismod magna, ut rhoncus tellus. Praesent varius metus in est fermentum maximus. Integer at lectus magna. Nullam nec quam ligula. Mauris nec nunc dapibus, interdum nibh imperdiet, finibus tortor. Nulla risus justo, fringilla ac fringilla at, luctus ac orci. Vivamus volutpat massa eget pellentesque eleifend. Proin dapibus consectetur lacus vitae pellentesque.
+                    </p>
+                    <p>
+                        Aenean pharetra eros a felis rhoncus, quis auctor ligula tincidunt. Ut fermentum commodo libero, eget dictum ligula fringilla tempor. Pellentesque ut eros eu mauris egestas scelerisque. Fusce dignissim tempor sapien, a congue tortor aliquet at. In non dignissim nibh. Aliquam erat volutpat. Donec efficitur, neque quis tempus porta, felis purus ullamcorper urna, sit amet congue metus elit et dolor. Fusce blandit molestie mauris, eget mattis ligula maximus non. Proin sagittis semper purus sit amet porta. Morbi gravida dolor in rhoncus sodales. Suspendisse est lacus, eleifend non ex et, elementum mollis tellus. Maecenas aliquam libero quis erat aliquam, non commodo dolor blandit. Aenean non dictum ex, vel pulvinar felis
+                    </p>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="collection">
+                <h1 id="colTitle">Oferta</h1>
+                <div id="pictures">
+                    <div class="project">
+                        <h1 class="projTitle">Suknie ślubne</h1>
+                        <div class="slideshow-container">
+                          <div class="mySlides1 fade" style="display: block">
+                            <img src="dress1.jpg" style="height: 600px; width: 400px;">
+                          </div>
+
+                          <div class="mySlides1 fade">
+                            <img src="dress2.jpg" style="height: 600px; width: 400px;">
+                          </div>
+
+                          <div class="mySlides1 fade">
+                            <img src="dress3.jpg" style="height: 600px; width: 400px;">
+                          </div>
+
+                          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit augue, a ullamcorper nibh. Integer facilisis lorem nec lacus aliquet gravida. Proin eget euismod magna, ut rhoncus tellus.</p>
+                    </div>
+                    <div class="project">
+                        <h1 class="projTitle">Stroje wieczorowe</h1>
+                        <div class="slideshow-container">
+                          <div class="mySlides2 fade" style="display: block">
+                            <img src="dressv1.jpg" style="height: 600px; width: 400px;">
+                          </div>
+
+                          <div class="mySlides2 fade">
+                            <img src="dressv2.jpg" style="height: 600px; width: 400px;">
+                          </div>
+
+                          <div class="mySlides2 fade">
+                            <img src="dressv3.jpg" style="height: 600px; width: 400px;">
+                          </div>
+
+                          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        </div>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit augue, a ullamcorper nibh. Integer facilisis lorem nec lacus aliquet gravida. Proin eget euismod magna, ut rhoncus tellus.</p>
+                    </div>
+                    <div class="project">
+                        <h1 class="projTitle">Doradztwo i pomoc</h1>
+                        <img class="pic" src="help.png">
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit augue, a ullamcorper nibh. Integer facilisis lorem nec lacus aliquet gravida. Proin eget euismod magna, ut rhoncus tellus.</p>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <h1 id="contactTitle">Gdzie nas szukać?</h1>
+            <div style="float:left">
+                <ul>
+                    <li><i class="icon-location-outline"></i>Adres: Wola Tesserowa 91</li>
+                    <li><i class="icon-mail"></i>Kod pocztowy: 28-366 Małogoszcz</li>
+                    <li><i class="icon-phone-outline"></i>Nr. tel: xxx-xxx-xxx</li>
+                    <li><i class="icon-attach"></i>NIP: 6561264797</li>
+                </ul>
+                <div id="message">
+                    <h1>Skontaktuj się z nami</h1>
+                    <form action="mailto:witek2012@vp.pl?subject=MartixStrona" method="post">
+                        <input type="text" name="name" placeholder="Imię" size="20px;">
+                        <input type="text" name="surname" placeholder="Nazwisko" size="20px;"><br>
+                        <input type="text" name="e-mail" placeholder="E-mail" size="49px;"><br>
+                        <input type="text" name="title" placeholder="Tytuł" size="49px;"><br>
+                        <input type="text" name="content" placeholder="Wiadomość" size="49px;"><br>    
+                        <input id="send" type="submit" name="submit" value="Wyślij">
+                    </form>
+                </div>
+            </div>
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+            <div style="clear:both"></div>
+        </div>
+        <div id="footer">
+            2018 © Powered by Wiktor Lasota.
+        </div>
+        <script>
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+
+            // Get the navbar
+            var navbar = document.getElementById("menu");
+
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+    </body>
+</html> 
